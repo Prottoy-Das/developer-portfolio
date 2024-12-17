@@ -10,6 +10,7 @@ body {
 nav{
     display: flex;
     justify-content:space-between ;
+    padding: 0 220px;
 }
 
 .nav-title{
@@ -46,5 +47,22 @@ nav a{
     font-weight: 700;
     color: white;
     padding: 15px 35px;
+
+}
+
+.header{
+    background-color: #fff8f3;
+}
+
+.banner{
+
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+
+}
+
+.pro-pic{
+    width: 500px;
 
 }
