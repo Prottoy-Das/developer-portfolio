@@ -183,3 +183,11 @@ main section{
 
 }
 
+footer{
+    display: flex;
+    background: #fff8f3;
+    padding: 130px 200px ;
+}
+
+
+
