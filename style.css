@@ -206,6 +206,30 @@ footer{
 
 }
 
+/* responsive media qery */
+
+.hide{
+    display: none;
+}
+
+@media screen and (max-width:576px) {
+    .skills-container, .resume-container,footer, .about-info-container{
+        flex-direction: column;
+    }
+    footer,.about{
+        padding: 20px;
+    }
+
+    .footer-column{
+        width: 100%;
+    }
+
+    .contact input,textarea{
+       width: calc(100% - 40px);
+    }
+    
+}
+
 
 
 
